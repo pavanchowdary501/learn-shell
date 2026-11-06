@@ -9,4 +9,14 @@ fi
 
 echo "proceeing..."
 
-dnf install nginx -y
+dnf install nginxxxxx -y
+
+if [ $? -ne 0 ]; then
+    echo "Nginx installarion is faild"
+    exit  1
+else
+    echo "Nginx installation sucess"
+
+dnf install mysqlll -y
+
+echo "still oroceeding...
