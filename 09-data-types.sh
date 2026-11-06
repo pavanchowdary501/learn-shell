@@ -21,4 +21,4 @@ echo "First fruite: ${FRUITS[0]}"
 
 name="Pavan Kumar B"
 
-echo "${nmae}ommineni"
+echo "${name}ommineni"
