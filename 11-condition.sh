@@ -19,4 +19,10 @@ else
 
 dnf install mysqlll -y
 
+if [ $? -ne 0 ]; then
+    echo "mysql installarion is faild"
+    exit  1
+else
+    echo " mysql installation sucess"
+
 echo "still oroceeding...
