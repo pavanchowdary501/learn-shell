@@ -19,7 +19,7 @@ dnf install nginx -y
 validate $? "Nginx Installation"
 
 
-dnf install mysqliii -y
+dnf install mysql -y
 
 validate $? "My sql installation"
 
