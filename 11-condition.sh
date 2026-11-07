@@ -16,13 +16,15 @@ if [ $? -ne 0 ]; then
     exit 1
 else
     echo "Nginx installation sucess"
+fi
 
-dnf install mysql -y
+dnf install mysqliii -y
 
 if [ $? -ne 0 ]; then
     echo "mysql installarion is faild"
     exit  1
 else
     echo " mysql installation sucess"
+fi
 
-echo "still proceeding...
+echo "still processing..."
