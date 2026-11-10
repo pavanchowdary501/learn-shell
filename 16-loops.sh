@@ -28,7 +28,7 @@ validate(){
 for package in $@
 do
     dnf list install $package
-    if [$? -ne 0 ]; then
+    if [ $? -ne 0 ]; then
         echo "Going to install: ${package}"
         dnf install $package -y &>> $logs_file
         validate $? "installing ${package}"
